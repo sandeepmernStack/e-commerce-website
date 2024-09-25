@@ -1,0 +1,14 @@
+<a href='https://www.freepik.com/free-photos-vectors/banner'>Banner psd created by freepik - www.freepik.com</a>
+
+Products image: www.myntra.com
+
+
+ <p>ExclisivelyAvailable on RedStore</p>
+
+  <h4>Smart Band 4</h4>
+
+    <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              ipsa, quisquam, praesentium quibusdam exercitationem ab maxime
+              commodi voluptate sequi, eligendi sit culpa perferendis.</small
+            >
