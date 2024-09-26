@@ -369,8 +369,95 @@ td input{
 
 
 
+/* --------- contact form -------------  */
 
 
+
+.form-container{
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  background: white;
+  position: relative;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+  transition: transform 1s;
+
+}
+
+form{
+  padding: 0 20px;
+  width: 100%;
+  top: 100px;
+  left: 0;
+  position: absolute;
+  transition: transform 1s;
+  
+  
+}
+
+.form-container form input{
+  width: 100%;
+  height: 30px;
+  padding:  0px 10px;
+  font-size: 18px;
+  display: inline-block;
+  margin: 20px 0;
+  border: 1px solid rgba(0,0,0,0.2);
+  outline: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+form button{
+width: 100%;
+padding: 10px 0;
+display: inline-block;
+font-size: 18px;
+background-color: orangered;
+border: none;
+outline: none;
+border-radius: 40px;
+}
+
+.form-btn{
+  color: black;
+  font-weight: bold;
+}
+.form-btn span{
+  font-size: 24px;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+#indecator{
+  width: 100px;
+  transition: transform 1s;
+  border: none;
+  margin-top: 10px;
+  height: 3px;
+  transform: translateX(160px);
+  background-color: orangered;
+}
+
+#login{
+left: -300px;
+}
+
+#register{
+left: 0px;
+}
+
+.forget-pass{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+}
 
 
 

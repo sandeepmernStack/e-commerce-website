@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+
+    <div class="header">
+        <div class="container">
+          <div class="navbar">
+            <img src="images/logo.png" class="logo" width="125px" />
+            <div class="navlinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="all-product.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">About</a></li>
+                    <li><a href="contact.html">Account</a></li>
+                  </ul>
+            
+            </div>
+          </div>
+          <!-- ------------Navbar--------------------------------- -->
+          <div class="home">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/image1.png"width="100%">
+                    </div>
+        
+                    <div class="col">
+                        <div class="form-container">
+                            <div class="form-btn">
+                              <span onclick="login()">Login</span>
+                              <span onclick="register()">Register</span>
+                            </div>
+                            <hr id="indecator" />
+                            <form id="login">
+                              <input type="text" placeholder="Username" />
+                              <input type="password" placeholder="Password" />
+                              <button>Login</button>
+                              <a href="" class="forget-pass">Forgot password</a>
+                            </form>
+                            <form id="register">
+                              <input type="text" placeholder="Username" />
+                              <input type="email" placeholder="email" />
+                              <input type="password" placeholder="Password" />
+                              <button>Register</button>
+                            </form>
+                          </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-row">
+            <div class="footer-col-1">
+              <h4>Download Our App</h4>
+              <p>Download Our App for Andriod and ios mobile Phone</p>
+              <div class="plateform-img">
+                <img src="images/play-store.png">
+                <img src="images/app-store.png">
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="images/logo.png">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa tenetur nulla dolorem. Modi illum amet nam corrupti?</p>
+            </div>
+            <div class="footer-col-3">
+              <h4>Usefull Links</h4>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Now</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h4>Follow Us</h4>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Now</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2025 - Sandeep chauhan</p>
+      </footer>
+
+    
+
+    
+    <!-- ---------- js for toggle login signup ---------- -->
+
+    <script>
+        var loginForm = document.getElementById('login')
+        var regForm = document.getElementById('register')
+        var indecator = document.getElementById('indecator')
+
+
+        function login(){
+            loginForm.style.transform = "translateX(300px)"
+            regForm.style.transform = "translateX(300px)"
+            indecator.style.transform = "translateX(30px)"
+           
+        }
+
+        function register(){
+             loginForm.style.transform = "translateX(0)"
+            regForm.style.transform = "translateX(0)"
+            indecator.style.transform = "translateX(160px)"
+        }
+
+    </script>
+   
+  </body>
+</html>
