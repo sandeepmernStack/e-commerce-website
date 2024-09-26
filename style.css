@@ -288,7 +288,68 @@ hr{
  padding-bottom: 20px;
 }
 
-/* ------------- Responsive ------------------ */
+/* ------------- product-details ------------------ */
+
+.single-product .small-container{
+  background: rgba(245, 147, 147,0.3);
+}
+
+.product-details h2{
+  font-size: clamp(2vw,40px,4vw);
+  margin: 15px 0;
+}
+.product-details p{
+  font-size:20px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.product-details input,.product-details select{
+  padding: 10px;
+  /* width: 40px; */
+  outline: none;
+  border: 1px solid red;
+  margin: 15px;
+}
+
+ .gallery-img{
+  width: 100%;
+  display: flex;
+  gap: 15S;
+}
+.product-details .gallery-img .col{
+  flex-basis: 24%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 720px) {
   .brand .col-2 {
