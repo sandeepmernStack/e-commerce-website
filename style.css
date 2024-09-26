@@ -322,6 +322,54 @@ hr{
   flex-basis: 24%;
 }
 
+/* -------- cart items----------- */
+
+table{
+  width: 100%;
+  margin: 100px auto;
+  border-collapse: collapse;
+}
+
+table tr th{
+  background: orangered;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  
+}
+
+
+
+.product-img{
+  display: flex;
+  margin-right: 10px;
+}
+
+.product-detail{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+td,tr{
+  text-align: left;
+ 
+}
+
+
+
+td a{
+  color: red;
+  margin-top: -20px;
+}
+
+td input{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
 
 
 
