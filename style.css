@@ -29,6 +29,11 @@ li {
   text-align: right;
 }
 
+#menu-icon{
+  margin-right: 30px;
+  display: none;
+}
+
 .navbar .navlinks li {
   margin-right: 20px;
   display: inline;
@@ -84,15 +89,6 @@ li {
     flex-direction: column;
   }
 
-  /* .container .row .order-1{
-        order: 1;
-        width: 100%;
-    }
-
-    .container .row .order-2{
-        order: 2;
-        width: 100%;
-    } */
 
   .navbar .navlinks li {
     margin: 20px 0;
